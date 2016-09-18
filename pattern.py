@@ -10,10 +10,10 @@ from matplotlib import pyplot as plt
 # index_params = dict(algorithm = FLANN_INDEX_KDTREE, trees = 5)
 # search_params = dict(checks = 50)
 
-img1 = cv2.imread('Lotus-logo.jpg',0)          # queryImage
+img1 = cv2.imread('lambi-logo-2.png',0)          # queryImage
 #img2 = cv2.imread('lambiCollection.png',0) # trainImage
 #img2 = cv2.imread('coinsCollection.jpg',0) # trainImage
-img2 = cv2.imread('real.jpg',0) # trainImage
+img2 = cv2.imread('lambiCollection.png',0) # trainImage
 
 
 cv2.ocl.setUseOpenCL(False)
